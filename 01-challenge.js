@@ -6,7 +6,7 @@
 
 const exArr = ['a', 10, 'b', 'hola', 122, 15];
 
-class challengeOne {
+class ChallengeOne {
   constructor(array) {
     this.array = array;
   }
@@ -27,8 +27,9 @@ class challengeOne {
     return Math.max(...this.numbers());
   }
 }
+const challengeOne = new ChallengeOne(exArr);
 
 console.log('This is the example array ==>', exArr);
-console.log('Get an array containing just the letters ==>', new challengeOne(exArr).letters());
-console.log('Get an array containing just the numbers ==>', new challengeOne(exArr).numbers());
-console.log('Get the highest number from an array containing just the numbers ==>', new challengeOne(exArr).highest());
+console.log('Get an array containing just the letters ==>', challengeOne.letters());
+console.log('Get an array containing just the numbers ==>', challengeOne.numbers());
+console.log('Get the highest number from an array containing just the numbers ==>', challengeOne.highest());
