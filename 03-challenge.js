@@ -21,4 +21,4 @@ const generarId = () => {
 
 const id = generarId();
 
-console.log(id);
+console.log('This is the id pattern ==>', id);
