@@ -34,7 +34,7 @@ Having Node installed:
 1 - Clone this repository to your machine;
 
 ```bash
-git clone <SSH-key>
+git clone git@github.com:arthur-debiasi/Algorithms-and-Data-Structure.git
 ```
 2 - Open an integrated terminal on root directory
 
